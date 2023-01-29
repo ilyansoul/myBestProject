@@ -1,0 +1,48 @@
+.chat-container {
+    background-color: #fff;
+    width: 30%;
+    text-align: left;
+    z-index: 1;
+
+}
+.chat-container-header {
+    background-color: linear-gradient(lightblue, red);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+
+.chat-btn {
+background-color: #fff;
+border-bottom: solid 4px blue;
+font-size: 20px;
+margin: 2px;
+padding: 10px;
+
+}
+
+.match-btn {
+    background-color: #fff;
+    border-bottom: solid 4px blue;
+    font-size: 20px;
+    margin: 2px;
+    padding: 10px;
+
+}
+
+.match-btn:disabled {
+    
+    border-bottom: solid 4px rgb(228, 145, 10);
+    
+
+}
+.chat-btn:disabled {
+    
+    border-bottom: solid 4px rgb(228, 145, 10);
+    
+
+}
